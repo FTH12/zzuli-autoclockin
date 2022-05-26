@@ -1,4 +1,4 @@
-<h1><center>i轻工大自动打卡(安卓)</center></h1>
+<h1><center>i轻工大自动打卡</center></h1>
 
 
 
