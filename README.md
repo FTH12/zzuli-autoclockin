@@ -37,9 +37,10 @@
  var myCode = ""; //个人参数
 ```
 
-这个参数需要进入https://msg.zzuli.edu.cn/xsc/week，从url中获取，如图遮挡处的code
+这个参数需要进入https://msg.zzuli.edu.cn/xsc/week
+从url中获取，如图遮挡处的code
+![Inkedimage-20220526134006502](https://user-images.githubusercontent.com/102567741/170441643-5a2ea9d6-73ab-4687-bb5c-20bd7b861054.jpg)
 
-![Inkedimage-20220526134006502](pic\Inkedimage-20220526134006502.jpg)
 
 这些带注释的参数自行设置
 
@@ -102,7 +103,7 @@
 
 **运行**
 
-![image-20220526142546475](pic\image-20220526142546475.png)
+![image-20220526142546475](https://user-images.githubusercontent.com/102567741/170441682-5392889d-7be6-428b-9215-3401c69f3b8c.png)
 
 
 
@@ -116,13 +117,13 @@ ios基于是利用系统自带的快捷指令实现的，只需要将个人日�
 
 用ios设备打开https://www.icloud.com/shortcuts/e57e1f5d74064ca5ae006527d7624223
 
-![image-20220526151308974](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526151308974.png)
+![image-20220526151308974](https://user-images.githubusercontent.com/102567741/170441756-d53e1639-37f2-43d5-b10a-85e828ccda5a.png)
 
 将code填入其中。
 
 下载第二个快捷指令(ClockinHome):[快捷指令 (icloud.com)](https://www.icloud.com/shortcuts/d05a322e1b494c5883d685de1fa1cc93)
+![image-20220526152002433](https://user-images.githubusercontent.com/102567741/170441800-99888e5f-2248-4ca6-9c2a-ad5ae4b6cadb.png)
 
-![image-20220526152002433](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152002433.png)
 
 根据自己的健康日报信息更改信息
 
@@ -130,17 +131,20 @@ ios基于是利用系统自带的快捷指令实现的，只需要将个人日�
 
 进入自动化页面，创建个人自动化，选择特定时间，添加操作，选择运行快捷指令。
 
-![image-20220526152336494](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152336494.png)
+![image-20220526152336494](https://user-images.githubusercontent.com/102567741/170441833-9ffd86f8-6ba2-41d5-b624-58536b10c149.png)
+
 
 运行顺序为：获取Token，ClockinHome
 
-![image-20220526152449880](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152449880.png)
+![image-20220526152449880](https://user-images.githubusercontent.com/102567741/170441859-5f586268-1b80-45f3-9c82-21c426cebf9d.png)
+
 
 **注意：一定要将Token的运行结果，输入到ClockinHome中**
 
 之后将运行前询问关闭
 
-![image-20220526152647609](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152647609.png)
+![image-20220526152647609](https://user-images.githubusercontent.com/102567741/170441880-3f66e833-5f7c-4aa0-a599-28e0270980b7.png)
+
 
 <h3>设置日志记录</h3>
 
@@ -148,7 +152,8 @@ ios基于是利用系统自带的快捷指令实现的，只需要将个人日�
 
 只需新建备忘录，在最开始输入 **目录 **即可
 
-![image-20220526152857248](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152857248.png)
+![image-20220526152857248](https://user-images.githubusercontent.com/102567741/170441900-47d26fa5-30ac-46c5-b94f-fbf0974043dc.png)
+
 
 至此设置完毕
 
