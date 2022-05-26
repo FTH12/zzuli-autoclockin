@@ -33,7 +33,9 @@
 
 <h4>设置参数</h4>
 
-​	![image-20220526133754391](pic\image-20220526133754391.png)
+```javascript
+ var myCode = ""; //个人参数
+```
 
 这个参数需要进入https://msg.zzuli.edu.cn/xsc/week，从url中获取，如图遮挡处的code
 
