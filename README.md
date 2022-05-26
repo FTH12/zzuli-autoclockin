@@ -4,7 +4,9 @@
 
 <h2>前言</h2>
 
-​	因为多次睡到中午12点，没有及时打卡，让辅导员深深的记住了我的名字，利用所学知识简单写了写这个脚本。安卓和IOS都有。
+​	因为多次睡到中午12点，没有及时打卡，让辅导员深深的记住了我的名字。
+
+​	本来基于Python开发，但是因为电脑一直不关机也不现实，云服务器也不是每个人都会操作，所以选择了人人都会用的手机开发，安卓端利用Auto.js，IOS端利用系统自带的快捷指令。
 
 <h1>声明</h1>
 
@@ -31,12 +33,11 @@
 
 <h4>设置参数</h4>
 
-![image-20220526133754391](https://user-images.githubusercontent.com/102567741/170435947-4c13b0cd-2d93-4305-8eff-cfe780594b12.png)
-
+​	![image-20220526133754391](pic\image-20220526133754391.png)
 
 这个参数需要进入https://msg.zzuli.edu.cn/xsc/week，从url中获取，如图遮挡处的code
 
-![Inkedimage-20220526134006502](https://user-images.githubusercontent.com/102567741/170435978-05d8b96d-f708-4cc6-866b-9608862c5ff6.jpg)
+![Inkedimage-20220526134006502](pic\Inkedimage-20220526134006502.jpg)
 
 这些带注释的参数自行设置
 
@@ -50,8 +51,8 @@
         "age": 21,  //年龄
         "org": "计算机与通信工程学院（电子信息工程学院）",  //学院
         "year": 2019,   //年级
-        "spec": "计算机科学与技术",  //专业
-        "class": "计算机科学与技术20-01",    //专业班级
+        "spec": "计算机科学与技术(移动软件)",  //专业
+        "class": "移动软件19-04",    //专业班级
         "mobile": "12345678910",    //手机号
         "jt_mobile": "12345678910",   //手机号
         "province": "河南省",  //省
@@ -98,7 +99,57 @@
 可参考[(60条消息) Tasker发送广播Intent控制Auto.js_辉辉辉、的博客-CSDN博客](https://blog.csdn.net/qq_45739934/article/details/124983337)
 
 **运行**
-![image-20220526142546475](https://user-images.githubusercontent.com/102567741/170435993-5c89f775-4fdd-4cbf-bcb8-ee159a27b9df.png)
+
+![image-20220526142546475](pic\image-20220526142546475.png)
 
 
 
+<h2>ios版</h2>
+
+ios基于是利用系统自带的快捷指令实现的，只需要将个人日报告信息**正确的填入**到**指定位置**即可，具体如何填，看安卓版的注释。
+
+<h3>下载打卡的快捷指令</h3>
+
+<h5>第一个快捷指令(获取Token)：</h5>
+
+用ios设备打开https://www.icloud.com/shortcuts/e57e1f5d74064ca5ae006527d7624223
+
+![image-20220526151308974](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526151308974.png)
+
+将code填入其中。
+
+下载第二个快捷指令(ClockinHome):[快捷指令 (icloud.com)](https://www.icloud.com/shortcuts/d05a322e1b494c5883d685de1fa1cc93)
+
+![image-20220526152002433](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152002433.png)
+
+根据自己的健康日报信息更改信息
+
+<h3>设置自动运行</h3>
+
+进入自动化页面，创建个人自动化，选择特定时间，添加操作，选择运行快捷指令。
+
+![image-20220526152336494](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152336494.png)
+
+运行顺序为：获取Token，ClockinHome
+
+![image-20220526152449880](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152449880.png)
+
+**注意：一定要将Token的运行结果，输入到ClockinHome中**
+
+之后将运行前询问关闭
+
+![image-20220526152647609](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152647609.png)
+
+<h3>设置日志记录</h3>
+
+日志是利用备忘录实现的
+
+只需新建备忘录，在最开始输入 **目录 **即可
+
+![image-20220526152857248](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526152857248.png)
+
+至此设置完毕
+
+<h3>注意</h3>
+
+因为涉及网络访问 ，所以需要先手动运行一下。
