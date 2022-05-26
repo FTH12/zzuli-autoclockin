@@ -31,11 +31,11 @@
 
 <h4>设置参数</h4>
 
-​	![image-20220526133754391](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526133754391.png)
+​	![image-20220526133754391](pic\image-20220526133754391.png)
 
 这个参数需要进入https://msg.zzuli.edu.cn/xsc/week，从url中获取，如图遮挡处的code
 
-![Inkedimage-20220526134006502](C:\Users\A\AppData\Roaming\Typora\typora-user-images\Inkedimage-20220526134006502.jpg)
+![Inkedimage-20220526134006502](pic\Inkedimage-20220526134006502.jpg)
 
 这些带注释的参数自行设置
 
@@ -98,5 +98,5 @@
 
 **运行**
 
-![image-20220526142546475](C:\Users\A\AppData\Roaming\Typora\typora-user-images\image-20220526142546475.png)
+![image-20220526142546475](pic\image-20220526142546475.png)
 
