@@ -31,11 +31,12 @@
 
 <h4>设置参数</h4>
 
-​	![image-20220526133754391](.\pic\image-20220526133754391.png)
+![image-20220526133754391](https://user-images.githubusercontent.com/102567741/170435947-4c13b0cd-2d93-4305-8eff-cfe780594b12.png)
+
 
 这个参数需要进入https://msg.zzuli.edu.cn/xsc/week，从url中获取，如图遮挡处的code
 
-![Inkedimage-20220526134006502](.\pic\Inkedimage-20220526134006502.jpg)
+![Inkedimage-20220526134006502](https://user-images.githubusercontent.com/102567741/170435978-05d8b96d-f708-4cc6-866b-9608862c5ff6.jpg)
 
 这些带注释的参数自行设置
 
@@ -97,6 +98,7 @@
 可参考[(60条消息) Tasker发送广播Intent控制Auto.js_辉辉辉、的博客-CSDN博客](https://blog.csdn.net/qq_45739934/article/details/124983337)
 
 **运行**
+![image-20220526142546475](https://user-images.githubusercontent.com/102567741/170435993-5c89f775-4fdd-4cbf-bcb8-ee159a27b9df.png)
 
-![image-20220526142546475](.\pic\image-20220526142546475.png)
+
 
