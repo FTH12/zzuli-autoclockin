@@ -32,7 +32,7 @@
 将main.js文件添加到Auto.js中
 
 <h4>设置参数</h4>
-![image-20220526133754391](https://user-images.githubusercontent.com/102567741/170440331-5139fb01-522c-45b9-b936-385e831e6cc0.png)
+![image-20220526133754391](https://user-images.githubusercontent.com/102567741/170440729-71b98774-cc4a-41a4-a828-144d931e6d35.png)
 
 这个参数需要进入https://msg.zzuli.edu.cn/xsc/week，从url中获取，如图遮挡处的code
 ![Inkedimage-20220526134006502](https://user-images.githubusercontent.com/102567741/170440377-1a3ead71-7275-4a49-b6a8-f680a860f797.jpg)
