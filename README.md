@@ -134,7 +134,7 @@ ios基于是利用系统自带的快捷指令实现的，只需要将个人日�
 ![image-20220526152336494](https://user-images.githubusercontent.com/102567741/170441833-9ffd86f8-6ba2-41d5-b624-58536b10c149.png)
 
 
-运行顺序为：获取Token，ClockinHome
+**此处纠正一下，只需运行ClockinHome即可**
 
 ![image-20220526152449880](https://user-images.githubusercontent.com/102567741/170441859-5f586268-1b80-45f3-9c82-21c426cebf9d.png)
 
