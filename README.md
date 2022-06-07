@@ -46,52 +46,106 @@
 
 ```json
     params = {
-        "user_code": "542007010101",  //学号
-        "user_name": "张三",  //姓名
-        "id_card": "410104200020202020",   //身份证
-        "date": time,
-        "sex": "男", //性别
-        "age": 21,  //年龄
-        "org": "计算机与通信工程学院（电子信息工程学院）",  //学院
-        "year": 2019,   //年级
-        "spec": "计算机科学与技术(移动软件)",  //专业
-        "class": "计算机科学与技术21-04",    //专业班级
-        "mobile": "12345678910",    //手机号
-        "jt_mobile": "12345678910",   //手机号
-        "province": "河南省",  //省
-        "city": "郑州市",     //市
-        "district": "中原区",  //区
-        "address": "郑州轻工业大学",   //具体地址，小区名，或学校名
-        "hjdz": "是",
-        "out": "否",
-        "out_address": "[{\"start_date\":\"\",\"end_date\":\"\",\"province\":\"\",\"city\":\"\",\"district\":\"\",\"area\":\"\",\"address\":\"\"}]",
-        "hb": "否",
-        "hn": "否",
-        "lat": 34.810871,   //获取定位的纬度,自己搜
-        "lon": 113.509422,  //获取定位时的经度，自己搜
-        "gcj_lat": 34.810871,   //获取定位的纬度，自己搜
-        "gcj_lon": 113.509422,  //获取定位时的经度，自己搜
-        "jz_address": "河南省郑州市中原区郑州轻工业大学",  //定位的地址
-        "jz_province": "河南省",   //省
-        "jz_city": "郑州市",       //市
-        "jz_district": "中原区",  //区
-        "jz_sfyz": "是",
-        "temp": "正常",
-        "jrzz": "无",
-        "stzk": "无",
-        "jcbl": "否",
-        "yqgl": "否",
-        "yjs": 0,
-        "other": "无",
-        "jjymqk": "已完成接种",
-        "hsjcqk": "更多次",
-        "last_time": "2022-05-22",  //最后接种时间
-        "fxdj": "低风险",    //地区风险等级
-        "flgl": "正常",     //所在地区管理分类
-        "jkmzt": "绿色",   //健康码颜色二
-        "qz_yqbl": "否",  
-        "wj_type": 0
-    }
+    "user_code": "542007010101", //学号
+    "user_name": "张三", //姓名
+    "id_card": "410104200020202020", //身份证
+    "date": time,
+    "sex": "男", //性别
+    "age": 21, //年龄
+    "org": "计算机与通信工程学院（电子信息工程学院）", //学院
+    "year": 2019, //年级
+    "spec": "计算机科学与技术(移动软件)", //专业
+    "class": "计算机科学与技术21-04", //专业班级
+    "mobile": "12345678910", //手机号
+    "jt_mobile": "12345678910", //手机号
+    "province": "河南省", //省
+    "city": "郑州市", //市
+    "district": "中原区", //区
+    "address": "郑州轻工业大学", //具体地址，小区名，或学校名
+    "hjdz": "是",
+    "out": "否",
+    "out_address": "[{\"start_date\":\"\",\"end_date\":\"\",\"province\":\"\",\"city\":\"\",\"district\":\"\",\"area\":\"\",\"address\":\"\"}]",
+    "hb": "否",
+    "hn": "否",
+    "lat": 34.810871, //获取定位的纬度,自己搜
+    "lon": 113.509422, //获取定位时的经度，自己搜
+    "gcj_lat": 34.810871, //获取定位的纬度，自己搜
+    "gcj_lon": 113.509422, //获取定位时的经度，自己搜
+    "jz_address": "河南省郑州市中原区郑州轻工业大学", //定位的地址
+    "jz_province": "河南省", //省
+    "jz_city": "郑州市", //市
+    "jz_district": "中原区", //区
+    "jz_sfyz": "是",
+    "temp": "正常",
+    "jrzz": "无",
+    "stzk": "无",
+    "jcbl": "否",
+    "yqgl": "否",
+    "yjs": 0,
+    "other": "无",
+    "jjymqk": "已完成接种",
+    "hsjcqk": "更多次",
+    "last_time": "2022-05-22", //最后接种时间
+    "fxdj": "低风险", //地区风险等级
+    "flgl": "正常", //所在地区管理分类
+    "jkmzt": "绿色", //健康码颜色二
+    "qz_yqbl": "否",
+    "wj_type": 0
+    //此段无用参数，可以修复提交了，但是该日期颜色没有变绿
+    "region": "",
+    "area": "",
+    "build": "",
+    "dorm": "",
+    "hj_province": "",
+    "hj_city": "",
+    "hj_district": "",
+    "hb_area": "",
+    "hn_area": "",
+    "sj_province": "",
+    "sj_city": "",
+    "sj_district": "",
+    "jzqk": "",
+    "jcqk": "",
+    "glrq": "",
+    "gljc": "",
+    "glp": "",
+    "glc": "",
+    "gld": "",
+    "gla": "",
+    "glyy": "",
+    "no_yy": "",
+    "no_jtyy": "",
+    "glztlb": "",
+    "hb_date": "",
+    "jz_qzbl": "",
+    "tz_qzbl": "",
+    "tz_province": "",
+    "tz_city": "",
+    "tz_district": "",
+    "tz_area": "",
+    "tz_address": "",
+    "jc_yqjc": "",
+    "jc_jcrq": "",
+    "jc_province": "",
+    "jc_city": "",
+    "jc_district": "",
+    "jc_area": "",
+    "jc_address": "",
+    "qz_yqrq": "",
+    "zl_province": "",
+    "zl_city": "",
+    "zl_district": "",
+    "zl_area": "",
+    "zl_address": "",
+    "zl_sfzy": "",
+    "zl_zyrq": "",
+    "xq_province": "",
+    "xq_city": "",
+    "xq_district": "",
+    "xq_area": "",
+    "xq_address": "",
+    "home_time": "",
+}
 ```
 
 
